@@ -16,12 +16,14 @@ namespace CountOfOddNumbersInArray
             foreach (int i in numbers)
             {
                 if (i % 2 != 0)
-                  
+                {
                     odd++;
+                }
             }
+                Console.WriteLine("{0}",odd);
 
-            Console.WriteLine("{0}",
-                              odd);
+            
+                              
         }
     }
 }
